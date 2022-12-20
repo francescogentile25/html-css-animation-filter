@@ -79,3 +79,30 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1);
+    border-radius: 30px;
+}
+
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1);
+    border-radius: 30px;
+    transform: scale(1.5);
+
+}
