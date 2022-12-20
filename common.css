@@ -106,3 +106,19 @@
     transform: scale(1.5);
 
 }
+
+.ex-10-icon{
+    animation-name: giramento;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes giramento{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
