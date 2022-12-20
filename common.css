@@ -122,3 +122,127 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-11-icon:hover{
+    animation-name: giramento-vendetta;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.76,.21,1,.71);
+
+}
+
+@keyframes giramento-vendetta {
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: ex-12-top;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: ex-12-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex-12-top {
+    0%{
+        left: 10%;
+    }
+    50%{
+        left:calc(100% - 60px);
+    }
+    100%{
+        left: 10%;
+    }
+}
+
+
+@keyframes ex-12-bottom {
+    0%{
+        right: 10%;
+    }
+    50%{
+        right:calc(100% - 60px);
+    }
+    100%{
+        right: 10%;
+    }
+
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: ex-13-top;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: ex-13-bottom;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+@keyframes ex-13-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    16%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    32% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    48%{
+        left: 0;
+        top: 100%;
+    }
+    64% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+@keyframes ex-13-bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    16%{
+        right: calc(100% - 60px);
+        bottom: -10px;
+    }
+    32%{
+        right: calc(100% - 60px);
+        top: -10px;
+    }
+    48%{
+        right: 0;
+        bottom: calc(100% - 10px);
+    }
+    64% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+
+}
